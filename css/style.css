@@ -1,0 +1,53 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-brand {
+    background-color: #fafafa;
+}
+
+.hover-text:hover {
+    text-decoration: underline;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-brand_light {
+    color: #71728a
+}
+
+.font-sm {
+    font-size: 12px;
+}
+
+.line {
+  
+    height: 1px;
+    background-color: #dee2e6;
+}
+
+img:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+}
+
+.btn-load_more {
+    width: 300px;
+    background-color: #292929;
+    color: white;
+    border: none;
+}
+
+.btn-load_more:hover {
+    background-color: #d7cfb8;
+    color: black;
+}
+
+.bg-image {
+    background-image: url(https://images.unsplash.com/photo-1527600478564-488952effedb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    height: 720px;
+}
